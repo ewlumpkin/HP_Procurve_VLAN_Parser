@@ -2,7 +2,7 @@
 
 This converts an HP Procurve VLAN configuration to a VLAN configuration suitable to migrate to Cisco switches.
 
-The difficulty of migrating from HP to Cisco is that the Procurves apply ports to VLANs and Cisco applies VLANs to Ports.  This is further complicated by the face that ports can be represented atomically *and* in ranges within the configuration.  
+The difficulty of migrating from HP to Cisco is that the Procurves apply ports to VLANs and Cisco applies VLANs to Ports.  This is further complicated by the fact that ports can be represented atomically *and* in ranges within the configuration.  
 
 This parser will parse the configuration of an HP Procurve switch and create interface configuration for you to further manipulate to your desires.
 
