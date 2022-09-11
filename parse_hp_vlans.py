@@ -1,4 +1,6 @@
-SOURCE_CONFIG = "Port_Script/hp_port_config.txt"
+import sys
+
+SOURCE_CONFIG = sys.argv[1]
 
 port_dict = {}
 
