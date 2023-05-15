@@ -36,7 +36,7 @@ def parse_ports(vlan_name, ports, tag):
         if "-" in port:
             # Initialize buffer to store port
             port_buf = ""
-            # Initialize buffer to store begging port
+            # Initialize buffer to store beginning port
             beg_port = ""
             # Initialize buffer to store end port
             end_port = ""
